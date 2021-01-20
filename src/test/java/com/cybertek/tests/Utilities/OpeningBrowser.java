@@ -1,6 +1,5 @@
 package com.cybertek.tests.Utilities;
 
-import com.cybertek.tests.day3_cssSelector_xpath.WebDriverFActory;
 import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;

@@ -1,6 +1,6 @@
 package com.cybertek.tests.OwnTests;
 
-import com.cybertek.tests.day3_cssSelector_xpath.WebDriverFActory;
+import com.cybertek.tests.Utilities.WebDriverFActory;
 import org.openqa.selenium.WebDriver;
 
 public class TC3_AppeFindElements2 {
