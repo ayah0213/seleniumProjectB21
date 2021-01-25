@@ -39,9 +39,8 @@ public class IframeIntro {
         //locating headerTExt
         driver.switchTo().parentFrame();
 
-        WebElement headerText= driver.findElement(By.xpath("h3"));
-        // 5.Assert: “An iFrame containing the TinyMCEWYSIWYG Editor
-        //Assert.assertEquals();
+        WebElement headerText = driver.findElement(By.tagName("h3"));
+        Assert.assertTrue(headerText.isDisplayed());
     }
 
 
