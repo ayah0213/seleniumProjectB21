@@ -1,14 +1,20 @@
 package com.cybertek.tests.day8_testBase_propertises_driver;
 
+import com.cybertek.tests.Base.TestBase;
+import com.cybertek.tests.Utilities.ConfigurationReader;
 import org.testng.annotations.Test;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class ReadingFormProperties {
+public class ReadingFormProperties extends TestBase {
+
+
     @Test
     public void reading_form_propertiesfile() throws IOException {
+
+
         //create #1 Properties class object
         Properties properties = new Properties();
 
@@ -26,5 +32,9 @@ public class ReadingFormProperties {
 
         // write a statemenet that is returning johndoe
         System.out.println("properties.getProperty(\"username\") = " + properties.getProperty("username"));
+    }
+
+    @Test public void reading_form_propertiesfile_using_PropertyMethod(){
+        ConfigurationReader.getProperty("browser");
     }
 }

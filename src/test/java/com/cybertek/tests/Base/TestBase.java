@@ -23,6 +23,6 @@ public class TestBase {
     @AfterMethod
     public void teardown () throws InterruptedException {
         Thread.sleep(3);
-        driver.quit();
+        driver.close();
     }
 }
