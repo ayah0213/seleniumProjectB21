@@ -2,11 +2,12 @@ package com.cybertek.tests.day10_pom_synchronization_jsExecutor;
 
 
 import com.cybertek.Utilities.BrowserUtils;
+import com.cybertek.Utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
-import java.sql.Driver;
+
 
 
 public class JS_Executer {

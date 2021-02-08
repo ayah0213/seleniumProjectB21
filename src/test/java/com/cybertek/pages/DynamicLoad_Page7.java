@@ -11,7 +11,6 @@ public class DynamicLoad_Page7 {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-
     //#1- locate the message
     @FindBy(id = "alert")
     public WebElement infoMessage;
