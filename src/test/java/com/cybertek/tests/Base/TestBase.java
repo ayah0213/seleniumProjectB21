@@ -1,6 +1,6 @@
 package com.cybertek.tests.Base;
 
-import com.cybertek.tests.Utilities.WebDriverFActory;
+import com.cybertek.Utilities.WebDriverFActory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;

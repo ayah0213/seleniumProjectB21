@@ -1,4 +1,4 @@
-package com.cybertek.tests.Utilities;
+package com.cybertek.Utilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

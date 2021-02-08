@@ -1,6 +1,6 @@
 package com.cybertek.tests.day6_SelectIntroDropDownJAvaFaker;
 
-import com.cybertek.tests.Utilities.WebDriverFActory;
+import com.cybertek.Utilities.WebDriverFActory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

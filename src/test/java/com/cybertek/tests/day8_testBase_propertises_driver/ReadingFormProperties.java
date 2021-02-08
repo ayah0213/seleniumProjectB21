@@ -1,7 +1,7 @@
 package com.cybertek.tests.day8_testBase_propertises_driver;
 
 import com.cybertek.tests.Base.TestBase;
-import com.cybertek.tests.Utilities.ConfigurationReader;
+import com.cybertek.Utilities.ConfigurationReader;
 import org.testng.annotations.Test;
 
 import java.io.FileInputStream;

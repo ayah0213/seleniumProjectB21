@@ -1,6 +1,6 @@
 package com.cybertek.tests.day5_testNG_intro_dropDown;
 
-import com.cybertek.tests.Utilities.WebDriverFActory;
+import com.cybertek.Utilities.WebDriverFActory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

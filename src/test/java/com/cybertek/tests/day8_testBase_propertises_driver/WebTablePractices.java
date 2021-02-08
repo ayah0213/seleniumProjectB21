@@ -1,8 +1,8 @@
 package com.cybertek.tests.day8_testBase_propertises_driver;
 
 import com.cybertek.tests.Base.TestBase;
-import com.cybertek.tests.Utilities.BrowserUtils;
-import com.cybertek.tests.Utilities.WebOrderUtils;
+import com.cybertek.Utilities.BrowserUtils;
+import com.cybertek.Utilities.WebOrderUtils;
 import org.testng.annotations.Test;
 
 import java.io.FileInputStream;

@@ -1,6 +1,6 @@
 package com.cybertek.tests.day7_AlertIframesWindows;
 
-import com.cybertek.tests.Utilities.WebDriverFActory;
+import com.cybertek.Utilities.WebDriverFActory;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
