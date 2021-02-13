@@ -28,7 +28,7 @@ public class WebDriverWaitsPractices {
             DynamicLoad_Page7 dynamicLoad7Page = new DynamicLoad_Page7();
 
             // 3.Assert : Message "Done" is displayed.
-            Assert.assertTrue(dynamicLoad7Page.alertMsg.isDisplayed());
+            Assert.assertTrue(dynamicLoad7Page.infoMessage.isDisplayed());
 
             // 4.Assert : Image is displayed.
             Assert.assertTrue(dynamicLoad7Page.spongeBobImage.isDisplayed());

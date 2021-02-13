@@ -1,5 +1,6 @@
 package com.cybertek.tests.day8_testBase_propertises_driver;
 
+import com.cybertek.Utilities.BrowserUtils;
 import com.cybertek.tests.Base.TestBase;
 import com.cybertek.Utilities.ConfigurationReader;
 import org.testng.annotations.Test;
@@ -25,7 +26,7 @@ public class ReadingFormProperties extends TestBase {
 
         //#3 Load the opened file into the Properties object
         properties.load(file);
-
+        BrowserUtils.sleep(3);
         //read some values from teh file
         System.out.println("properties.getProperty(\"browser\") = " + properties.getProperty("browser"));
 

@@ -14,7 +14,7 @@ public class JavaFakerExamples {
         String adress=faker.address().fullAddress();
         String aress2=faker.address().buildingNumber();
         String finance = faker.finance().creditCard();
-        System.out.println(aress2+", "+adress+","+"bankc inoofr: "+finance);
+        System.out.println(aress2+", "+adress+","+"bank inoofr: "+finance);
         String getQuote = faker.gameOfThrones().quote();
         System.out.println(getQuote);
         String kardashian = faker.chuckNorris().fact();

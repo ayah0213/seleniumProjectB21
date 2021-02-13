@@ -1,5 +1,4 @@
 # Project exclude paths
 /target/
-/.gitignore
 /.idea
 seleniumProjectB21.iml
